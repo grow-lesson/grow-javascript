@@ -63,49 +63,8 @@ console.log(count); // 出力結果：3
 
 
 
+
 // 問題6の答え:
-for (let i = 0; i < 7; i++) {
-  let line = '';
-  for (let j = 0; j < 7; j++) {
-    if (i === j || i + j === 6) {
-      line += '*';
-    } else {
-      line += '-';
-    }
-  }
-  console.log(line);
-}
-
-
-
-
-
-
-
-// 問題7の答え:
-for (let i = 1; i <= 7; i++) {
-  let line = '';
-  let spaces = Math.abs(i - 4);
-  let stars = 7 - 2 * spaces;
-  for (let j = 0; j < spaces; j++) {
-    line += '-';
-  }
-  for (let k = 0; k < stars; k++) {
-    line += '*';
-  }
-  for (let j = 0; j < spaces; j++) {
-    line += '-';
-  }
-  console.log(line);
-}
-
-
-
-
-
-
-
-// 問題8の答え:
 for (let i = 1; i <= 5; i++) {
   let line = '';
   for (let j = 0; j < i; j++) {
@@ -119,7 +78,7 @@ for (let i = 1; i <= 5; i++) {
 
 
 
-// 問題9の答え:
+// 問題7の答え:
 for (let i = 1; i <= 5; i++) {
   let line = '';
   for (let j = 0; j < 5 - i; j++) {
@@ -137,7 +96,7 @@ for (let i = 1; i <= 5; i++) {
 
 
 
-// 問題10の答え:
+// 問題8の答え:
 for (let i = 1; i <= 3; i++) {
   let line = '';
   for (let j = 0; j < 3 - i; j++) {
@@ -155,7 +114,7 @@ for (let i = 1; i <= 3; i++) {
 
 
 
-// 問題11の答え:
+// 問題9の答え:
 for (let i = 3; i >= 1; i--) {
   let line = '';
   for (let j = 0; j < 3 - i; j++) {
@@ -173,7 +132,7 @@ for (let i = 3; i >= 1; i--) {
 
 
 
-// 問題12の答え:
+// 問題10の答え:
 for (let i = 1; i <= 5; i++) {
   let line = '';
   for (let j = 0; j < i; j++) {
@@ -187,7 +146,7 @@ for (let i = 1; i <= 5; i++) {
 
 
 
-// 問題13の答え:
+// 問題11の答え:
 for (let i = 5; i >= 1; i--) {
   let line = '';
   for (let j = 0; j < i; j++) {

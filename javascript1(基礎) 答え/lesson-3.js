@@ -57,10 +57,18 @@ console.log(min); // 出力結果：9
 
 
 // 問題5の答え:
-let arr = [20, 4, 8, 12, 10];
-let sum = arr[0] + arr[1] + arr[2] + arr[3] + arr[4];
-let average = sum / arr.length;
-console.log(average); // 出力結果：10.8
+let numbers = [7, 12, 5, 9, 3, 15];
+let oddCount = 0;
+
+if (numbers[0] % 2 !== 0) { oddCount++; }
+if (numbers[1] % 2 !== 0) { oddCount++; }
+if (numbers[2] % 2 !== 0) { oddCount++; }
+if (numbers[3] % 2 !== 0) { oddCount++; }
+if (numbers[4] % 2 !== 0) { oddCount++; }
+if (numbers[5] % 2 !== 0) { oddCount++; }
+
+console.log("奇数の数の個数:", oddCount);
+
 
 
 
@@ -68,26 +76,29 @@ console.log(average); // 出力結果：10.8
 
 
 // 問題6の答え:
-let arr = [7, 12, 5, 9, 8];
-let count = 0;
-if (arr[0] >= 3 && arr[0] % 2 === 0) {
-  count++;
-}
-if (arr[1] >= 3 && arr[1] % 2 === 0) {
-  count++;
-}
-if (arr[2] >= 3 && arr[2] % 2 === 0) {
-  count++;
-}
-if (arr[3] >= 3 && arr[3] % 2 === 0) {
-  count++;
-}
-if (arr[4] >= 3 && arr[4] % 2 === 0) {
-  count++;
-}
-console.log(count); // 出力結果：3
+let numbers = [10, 20, 30, 40, 50];
+let doubledNumbers = [];
+
+doubledNumbers[0] = numbers[0] * 2;
+doubledNumbers[1] = numbers[1] * 2;
+doubledNumbers[2] = numbers[2] * 2;
+doubledNumbers[3] = numbers[3] * 2;
+doubledNumbers[4] = numbers[4] * 2;
+
+console.log("2倍の配列:", doubledNumbers);
 
 
 
 
 
+// 問題7の答え:
+let numbers = [1, 2, 3, 4, 5];
+let squaredNumbers = [];
+
+squaredNumbers[0] = numbers[0] * numbers[0];
+squaredNumbers[1] = numbers[1] * numbers[1];
+squaredNumbers[2] = numbers[2] * numbers[2];
+squaredNumbers[3] = numbers[3] * numbers[3];
+squaredNumbers[4] = numbers[4] * numbers[4];
+
+console.log("2乗の配列:", squaredNumbers);
