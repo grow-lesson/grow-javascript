@@ -1,4 +1,4 @@
-問題1:
+// 問題1の答え
 
 for (let i = 1; i <= 100; i++) {
   if (i % 3 === 0 && i % 5 === 0) {
@@ -8,7 +8,7 @@ for (let i = 1; i <= 100; i++) {
 
 
 
-問題2:
+// 問題2の答え
 
 let count = 0;
 for (let i = 1; i <= 100; i++) {
@@ -20,7 +20,7 @@ console.log(count);
 
 
 
-問題3:
+// 問題3の答え
 
 let sum = 0;
 for (let i = 1; i <= 100; i++) {
@@ -31,7 +31,7 @@ for (let i = 1; i <= 100; i++) {
 console.log(sum);
 
 
-問題4:
+// 問題4の答え
 
 let count = 0;
 // 1から100までの整数をループ
@@ -45,7 +45,7 @@ console.log(count);
 
 
 
-問題5:
+// 問題5の答え
 
 let sum = 0;
 // 1から100までの整数をループ
@@ -59,7 +59,7 @@ console.log(sum);
 
 
 
-問題6:
+// 問題6の答え
 
 for (let i = 0; i < 3; i++) {
   let line = '';
@@ -83,7 +83,7 @@ for (let i = 1; i < 3; i++) {
 }
 
 
-問題7:
+// 問題7の答え
 
 for (let i = 0; i < 5; i++) {
   let line = '';
@@ -111,7 +111,7 @@ for (let i = 0; i < 4; i++) {
 }
 
 
-問題8:
+// 問題8の答え
 
 for (let i = 0; i < 5; i++) {
   let line = '';
@@ -126,7 +126,7 @@ for (let i = 0; i < 5; i++) {
 }
 
 
-問題9:
+// 問題9の答え
 
 for (let i = 0; i < 4; i++) {
   let line = '';
@@ -141,7 +141,7 @@ for (let i = 0; i < 4; i++) {
 
 
 
-問題10:
+// 問題10の答え
 
 for (let i = 0; i < 5; i++) {
   let line = '';
