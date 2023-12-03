@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>DOM操作問題</title>
+</head>
+<body>
+  <input type="text" id="text-input" placeholder="ここに入力">
+  <script src="script.js"></script>
+  <script>
+    // ここに処理を入れましょう。
+    const textInput = document.getElementById('text-input');
+
+    textInput.addEventListener('input', function () {
+      console.log('入力されたテキスト:', textInput.value);
+    });
+  </script>
+</body>
+</html>

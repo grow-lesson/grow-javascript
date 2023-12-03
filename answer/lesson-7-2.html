@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>DOM操作問題</title>
+</head>
+<body>
+  <ul id="list-container">
+    <li>りんご</li>
+    <li>バナナ</li>
+    <li>オレンジ</li>
+  </ul>
+  <script src="script.js"></script>
+  <script>
+    // ここに処理を入れましょう。
+    const listContainer = document.getElementById('list-container');
+    const listItems = listContainer.getElementsByTagName('li');
+
+    for (const listItem of listItems) {
+      listItem.textContent = listItem.textContent.toUpperCase();
+    }
+  </script>
+</body>
+</html>

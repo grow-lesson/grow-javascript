@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>DOM操作問題</title>
+</head>
+<body>
+  <button id="click-me-button">クリックしてください</button>
+  <p id="result-message"></p>
+  <script src="script.js"></script>
+  <script>
+    // ここに処理を入れましょう。
+    const clickMeButton = document.getElementById('click-me-button');
+    const resultMessage = document.getElementById('result-message');
+
+    clickMeButton.addEventListener('click', function () {
+      resultMessage.textContent = 'ボタンがクリックされました！';
+    });
+  </script>
+</body>
+</html>
