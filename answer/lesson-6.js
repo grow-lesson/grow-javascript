@@ -13,28 +13,29 @@ console.log(isEvenOrOdd(7)); // 出力: "奇数"
 
 
 // 問題2の答え:
-function isPalindrome(str) {
-  const reversedStr = str.split("").reverse().join("");
-  return str === reversedStr;
+function calculatePolygonAngleCount(sides) {
+  // 多角形の角度を計算する公式: (n-2) * 180 / n
+  const angle = (sides - 2) * 180 / sides;
+
+  // 計算結果を返す
+  return angle;
 }
 
 // 例の使用:
-console.log(isPalindrome("level")); // 出力: true
-console.log(isPalindrome("hello")); // 出力: false
+console.log(calculatePolygonAngleCount(6)); // 出力: 120
 
 
 // 問題3の答え:
-function factorial(n) {
-  if (n === 0 || n === 1) {
-    return 1;
-  } else {
-    return n * factorial(n - 1);
-  }
+function calculateTriangleArea(base, height) {
+  // 三角形の面積を計算
+  let area = (base * height) / 2;
+  // 計算された面積を返す
+  return area;
 }
 
 // 例の使用:
-console.log(factorial(5)); // 出力: 120
-console.log(factorial(0)); // 出力: 1
+console.log(factorial(calculateTriangleArea(5, 8))); // 出力: 20
+
 
 
 // 問題4の答え:
@@ -53,16 +54,17 @@ console.log(findMax([3, 8, 1, 6, 2])); // 出力: 8
 console.log(findMax([-1, -5, -2])); // 出力: -1
 
 // 問題5の答え:
-function isPrime(number) {
-  for (let i = 2; i < number; i++) {
-    if (number % i === 0) {
-      return false;
-    }
-  }
-  return true;
+function calculateCircleArea(radius) {
+  // 円周率の仮定
+  const pi = 3.14;
+
+  // 円の面積の計算
+  const area = pi * radius * radius;
+
+  // 計算結果を返す
+  return area;
 }
 
 // 例の使用:
-console.log(isPrime(11)); // 出力: true
-console.log(isPrime(6)); // 出力: false
+console.log(calculateCircleArea(5)); // 出力: 78.54
 
