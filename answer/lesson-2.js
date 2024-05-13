@@ -44,48 +44,53 @@ if (a > b) {
 
 
 // 問題5の答え:
-let month = 8;
+let month = 11;
+let monthName;
+
 switch (month) {
   case 1:
-    console.log("January");
+    monthName = "Jan.";
     break;
   case 2:
-    console.log("February");
+    monthName = "Fed.";
     break;
   case 3:
-    console.log("March");
+    monthName = "Mar.";
     break;
   case 4:
-    console.log("April");
+    monthName = "Apr.";
     break;
   case 5:
-    console.log("May");
+    monthName = "May.";
     break;
   case 6:
-    console.log("June");
+    monthName = "Jun.";
     break;
   case 7:
-    console.log("July");
+    monthName = "Jul.";
     break;
   case 8:
-    console.log("August");
+    monthName = "Aug.";
     break;
   case 9:
-    console.log("September");
+    monthName = "Sep.";
     break;
   case 10:
-    console.log("October");
+    monthName = "Oct.";
     break;
   case 11:
-    console.log("November");
+    monthName = "Nov.";
     break;
   case 12:
-    console.log("December");
+    monthName = "Dec.";
     break;
   default:
-    console.log("無効な月です");
+    monthName = "無効な月です"
     break;
 }
+
+console.log(monthName);
+
 
 
 
